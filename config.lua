@@ -17,7 +17,7 @@ fizzfau = {
 		Type = 27
 	},
 	Rewards = {
-		item = { name = "water", count = 25 },
+		item = { name = "x", count = 25 },
 		money = 500 -- para vermesini istemiyorsanız 0 veya nil yazın
 	},
 	Clock = {
