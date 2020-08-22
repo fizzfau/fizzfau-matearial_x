@@ -56,7 +56,7 @@ Citizen.CreateThread(function()
 			if sureBasladi then
 				if yakin then
 					if sure > 0 then
-						sleep = 1000
+						sleep = 60000
 						if itemSure ~= 0 then
 							exports.mythic_notify:SendAlert("error", "Geri Sayım Başladı: " .. sure .. " Dakika Bekle")
 							itemSure = itemSure - 1000
